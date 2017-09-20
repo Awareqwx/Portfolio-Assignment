@@ -1,0 +1,150 @@
+.header{
+    background-color: lightgray;
+    font-style: bold;
+    height: 60px;
+    width: 940px;
+}
+
+.header h1{
+    font-family: Helvetica;
+    display: inline-block;
+    margin: 10px;
+}
+
+.header h3{
+    font-family: Arial;
+    text-align: right;
+    display: inline-block;
+    margin-left: 410px;
+    margin-bottom: 45px;
+    vertical-align: middle;
+}
+
+.wrapper{
+    background: #6C5779;
+    background: -webkit-radial-gradient(#E1BDF8, black);
+    background: -o-radial-gradient(E1BDF8, black);
+    background: -moz-radial-gradient(E1BDF8, black);
+    background: radial-gradient(E1BDF8, black);
+    width: 940px;
+}
+
+.profpic{
+    display: inline-block;
+    border: 5px solid lightgray;
+    margin: 20px;
+}
+
+.profpic img{
+    height: 266px;
+    width: 402px;
+    vertical-align: top;
+}
+
+.about{
+    background: lightgrey;
+    background: -webkit-linear-gradient(90deg, lightgrey, lavender);
+    background: -o-linear-gradient(90deg, lightgrey, lavender);
+    background: -moz-linear-gradient(90deg, lightgrey, lavender);
+    background: linear-gradient(90deg, lightgrey, lavender);
+    display: inline-block;
+    vertical-align: top;
+    width: 450px;
+    margin-top: 20px;
+}
+
+.about p, .about a{
+    margin: 20px;
+    font-family: arial;
+}
+
+.subheader{
+    background: gray; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(lightgray, #8D8596, lightgray); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(lightgray, 8D8596, lightgray); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(lightgray, 8D8596, lightgray); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(lightgray, 8D8596, lightgray); /* Standard syntax */
+    height: 40px;
+    margin: 0;
+    color: white;
+    font-family: arial;
+}
+
+.subheader *{
+    line-height: 40px;
+    margin: 0;
+    margin-left: 5px;
+}
+
+.lamode, .familycontacts, .fiveeleven{
+    width: 270px;
+    margin: 20px;
+    display: inline-block;
+    vertical-align: top;
+    background: lightgrey;
+    background: -webkit-linear-gradient(90deg, lightgrey, lavender);
+    background: -o-linear-gradient(90deg, lightgrey, lavender);
+    background: -moz-linear-gradient(90deg, lightgrey, lavender);
+    background: linear-gradient(90deg, lightgrey, lavender);
+}
+
+.lamode img, .familycontacts img, .fiveeleven img{
+    width: 270px;
+    height: 150px;
+}
+
+.lamode p, .familycontacts p, .fiveeleven p{
+    height: 200px;
+    font-family: Arial;
+    margin: 10px;
+}
+
+.techbox{
+    text-align: left;
+}
+
+.techbox img{
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+}
+
+.buttonwrapper{
+    width: 100%;
+    text-align: center;
+}
+
+.button{
+    display: inline-block;
+    margin-bottom: 10px;
+    width: auto;
+    background-color: #17884A;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.button p{
+    height: auto;
+    color: white;
+    margin: 5px;
+}
+
+.footer{
+    background-color: lightgray;
+    text-align: center;
+    font-family: Arial;
+}
+
+.footer p{
+    margin: 10px;
+}
+
+.contacts a{
+    font-style: italic;
+    color: black;
+}
+
+.contacts img{
+    width: 20px;
+    height: 20px;
+}
